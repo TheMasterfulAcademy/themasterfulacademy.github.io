@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Our Tutors - Masterful Academy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #009688;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .meet-tutors {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        .tutor {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .tutor img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .tutor .description {
+            width: 75%;
+        }
+
+        .tutor h3 {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+
+        .tutor p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Masterful Academy</h1>
+        <p>Empowering students to unlock their full potential</p>
+    </header>
+    
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Meet Our Tutors</a>
+        <a href="#">Careers</a>
+        <a href="#">Contact Us</a>
+    </nav>
+    
+    <!-- Meet Our Tutors Section -->
+    <div class="section" style="background-color: #f9f9f9;">
+        <h2>Meet Our Tutors</h2>
+        <div class="meet-tutors">
+            <div class="tutor">
+                <img src="https://via.placeholder.com/120" alt="Tutor 1">
+                <div class="description">
+                    <h3>John Doe</h3>
+                    <p>Specializing in Mathematics and Science. Passionate about helping students understand complex concepts and build a strong foundation for success.</p>
+                </div>
+            </div>
+            <div class="tutor">
+                <img src="https://via.placeholder.com/120" alt="Tutor 2">
+                <div class="description">
+                    <h3>Jane Smith</h3>
+                    <p>Expert in English and Literature. Helping students develop writing skills, reading comprehension, and critical thinking abilities.</p>
+                </div>
+            </div>
+            <div class="tutor">
+                <img src="https://via.placeholder.com/120" alt="Tutor 3">
+                <div class="description">
+                    <h3>Michael Lee</h3>
+                    <p>Experienced in teaching Physics and Chemistry. Known for making difficult concepts simple and engaging for all students.</p>
+                </div>
+            </div>
+            <div class="tutor">
+                <img src="https://via.placeholder.com/120" alt="Tutor 4">
+                <div class="description">
+                    <h3>Sarah Park</h3>
+                    <p>Specializes in History and Social Studies. Dedicated to helping students understand the world’s past and its relevance to today’s society.</p>
+                </div>
+            </div>
+            <div class="tutor">
+                <img src="https://via.placeholder.com/120" alt="Tutor 5">
+                <div class="description">
+                    <h3>David Kim</h3>
+                    <p>Expert in Computer Science and Programming. Passionate about teaching coding and helping students develop problem-solving skills for the digital age.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Masterful Academy | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
