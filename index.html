@@ -3,10 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to The Masterful Academy</title>
+    <title>Masterful Academy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #009688;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .cta-button {
+            background-color: #ff5722;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            background-color: #e64a19;
+        }
+
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+
+        .service {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            margin: 20px;
+        }
+
+        .service h3 {
+            font-size: 1.5rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .testimonial {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonial p {
+            font-style: italic;
+        }
+
+        .testimonial .author {
+            text-align: right;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to The Masterful Academy!</h1>
-    <p>Your journey to mastering knowledge begins here.</p>
+    <!-- Header -->
+    <header>
+        <h1>Masterful Academy</h1>
+        <p>Empowering students to unlock their full potential</p>
+    </header>
+    
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Careers</a>
+        <a href="#">Contact Us</a>
+    </nav>
+    
+    <!-- Main Content Area -->
+    <div class="section">
+        <h2>Welcome to Masterful Academy!</h2>
+        <p>At Masterful Academy, we provide tailored tutoring that helps learners excel in Math, English, and more. Start your journey to academic success today.</p>
+        <button class="cta-button">Book a Lesson</button>
+    </div>
+
+    <!-- Who We Are Section -->
+    <div class="section" style="background-color: #f9f9f9;">
+        <h2>Who We Are</h2>
+        <p>Masterful Academy is dedicated to providing high-quality, personalized tutoring for students of all ages. Our mission is to help students build the skills and confidence they need to succeed academically.</p>
+    </div>
+
+    <!-- Services Section -->
+    <div class="section">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Math Mastery</h3>
+                <p>Master mathematics with personalized lessons.</p>
+            </div>
+            <div class="service">
+                <h3>English Mastery</h3>
+                <p>Improve reading, writing, and speaking skills.</p>
+            </div>
+            <div class="service">
+                <h3>Science Mastery</h3>
+                <p>Achieve top marks in physics, chemistry, and biology.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <div class="section" style="background-color: #f9f9f9;">
+        <h2>What Our Students Say</h2>
+        <div class="testimonial">
+            <p>"Masterful Academy helped me improve my grades and build confidence in math. The tutors are really supportive!"</p>
+            <div class="author">- Jane Doe, Student</div>
+        </div>
+        <div class="testimonial">
+            <p>"The English tutoring has been fantastic. I’m now more confident in my speaking and writing skills."</p>
+            <div class="author">- John Smith, Student</div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Masterful Academy | All Rights Reserved</p>
+    </footer>
 </body>
 </html>
